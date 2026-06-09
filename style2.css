@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(153, 184, 42);
+}
+.container{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+   padding: 30px 40px;
+    width: 30%;
+   height: auto;             /* Schimbă din 200px în auto ca să nu se mai înghesuie elementele */
+    gap: 12px;                /* Adaugă spațiu vertical egal între etichete, inputuri și buton */
+    text-align: center;       /* Centrează textul din interiorul etichetelor (<label>) */
+
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;  
+    align-items: center;
+    border-radius: 10px;
+}
+input, button {
+    width: 100%;
+    max-width: 250px;         /* Împiedică elementele să devină prea late pe ecrane mari */
+    padding: 8px;
+    box-sizing: border-box;
+}
